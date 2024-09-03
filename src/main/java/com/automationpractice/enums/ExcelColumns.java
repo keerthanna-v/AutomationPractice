@@ -1,0 +1,8 @@
+package com.automationpractice.enums;
+
+public enum ExcelColumns {
+
+    NAME,EMAIL,PASSWORD,DAY,MONTH,YEAR,FIRSTNAME,LASTNAME,COMPANY,ADDRESS,COUNTRY,STATE,CITY,ZIPCODE,MOBILENUMBER;
+
+
+}
