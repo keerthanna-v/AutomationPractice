@@ -24,7 +24,7 @@ public final class SignUpPage {
     }
     public void clickSignUp()
     {
-        UtilMethods.click(BTN_SIGNUP, ExplicitWaitStrategy.CLICKABLE);
+        UtilMethods.click(BTN_SIGNUP, ExplicitWaitStrategy.CLICKABLE,"signup link");
     }
 
 

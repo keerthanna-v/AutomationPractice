@@ -21,47 +21,43 @@ public final class Headerbuttons {
 
     public Headerbuttons clickHome()
     {
-        UtilMethods.click(lnk_Home, ExplicitWaitStrategy.CLICKABLE);
+        UtilMethods.click(lnk_Home, ExplicitWaitStrategy.CLICKABLE,"Home link");
         return this;
     }
     public Headerbuttons clickProducts()
     {
-        UtilMethods.click(lnk_Products,ExplicitWaitStrategy.CLICKABLE);
+        UtilMethods.click(lnk_Products,ExplicitWaitStrategy.CLICKABLE,"Products link");
         return this;
     }
     public Headerbuttons clickcart()
     {
-        UtilMethods.click(lnk_Cart,ExplicitWaitStrategy.CLICKABLE);
+        UtilMethods.click(lnk_Cart,ExplicitWaitStrategy.CLICKABLE,"Cart link");
         return this;
     }
     public Headerbuttons clickSignupOrLogin()
     {
-        UtilMethods.click(lnk_SignupOrLogin,ExplicitWaitStrategy.CLICKABLE);
+        UtilMethods.click(lnk_SignupOrLogin,ExplicitWaitStrategy.CLICKABLE,"SignUp button");
         return this;
     }
     public Headerbuttons clickTestCases()
     {
-        UtilMethods.click(lnk_TestCases,ExplicitWaitStrategy.CLICKABLE);
+        UtilMethods.click(lnk_TestCases,ExplicitWaitStrategy.CLICKABLE,"TestCase button");
         return this;
     }
-    public Headerbuttons clickApiTesting()
-    {
-        UtilMethods.click(lnk_ApiTesting,ExplicitWaitStrategy.CLICKABLE);
-        return this;
-    }
+
     public Headerbuttons clickVideoTutorials()
     {
-        UtilMethods.click(lnk_VideoTutorials,ExplicitWaitStrategy.CLICKABLE);
+        UtilMethods.click(lnk_VideoTutorials,ExplicitWaitStrategy.CLICKABLE,"Video tutorial");
         return this;
     }
     public Headerbuttons clickContactUs()
     {
-        UtilMethods.click(lnk_ContactUs,ExplicitWaitStrategy.CLICKABLE);
+        UtilMethods.click(lnk_ContactUs,ExplicitWaitStrategy.CLICKABLE,"Contact us link");
         return this;
     }
     public Headerbuttons clickDeleteAccount()
     {
-        UtilMethods.click(lnk_DeleteAccount,ExplicitWaitStrategy.CLICKABLE);
+        UtilMethods.click(lnk_DeleteAccount,ExplicitWaitStrategy.CLICKABLE," Delete account link");
         return this;
     }
 
